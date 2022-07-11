@@ -1,7 +1,14 @@
+import NotificationButton from "./Components/NotificationButton"
+
 
 function App() {
 
-  return (<h1>ASD</h1>)
+  return (
+    <>
+      <NotificationButton/>
+      <h1>ASD</h1>
+    </>
+  )
 }
 
 export default App
