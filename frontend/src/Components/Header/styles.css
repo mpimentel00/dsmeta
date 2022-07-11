@@ -1,0 +1,27 @@
+header {
+    height: 220px;
+    background: linear-gradient(180deg, #102347, #181818 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsmeta-logo-contaier {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dsmeta-logo-contaier img {
+    width: 235px;
+}
+
+.dsmeta-logo-contaier h1 {
+    margin-top: 14px;
+    font-size: 24px;
+}
+
+.dsmeta-logo-contaier p {
+    font-size: 14px;
+    font-weight: 300;
+}
