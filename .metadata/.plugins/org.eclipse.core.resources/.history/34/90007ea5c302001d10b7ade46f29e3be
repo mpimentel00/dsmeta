@@ -1,0 +1,26 @@
+package com.devsuperior.dsmeta.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.devsuperior.dsmeta.models.Sale;
+import com.devsuperior.dsmeta.repository.SaleRepository;
+
+@RestController
+public class SaleController {
+	
+	@Autowired
+	SaleRepository saleRepository;
+	
+	@GetMapping("/sale")
+	public List<Sale> list() {
+		return saleRepository.findAll();
+	}
+//	@GetMapping
+//	@PutMapping
+//	@PostMapping
+//	@DeleteMapping
+}

@@ -1,0 +1,22 @@
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.show-sql=true
+spring.datasource.url=jdbc:postgresql://localhost:5432/dsmeta
+spring.datasource.username=postgres
+spring.datasource.password=12345
+
+twilio.sid=${TWILIO_SID}
+twilio.key=${TWILIO_KEY}
+twilio.phone.from=${TWILIO_PHONE_FROM}
+twilio.phone.to=${TWILIO_PHONE_TO}
+#igiota.jwt.expiration = 86400000
+#igiota.jwt.secret = 123456
+
+#
+#spring.datasource.initialization-mode=always
+#spring.datasource.initialize=true
+#spring.datasource.schema=classpath:/schema.sql
+#spring.datasource.continue-on-error=true
+
+
+#spring.mvc.pathmatch.matching-strategy=ant_path_matcher
